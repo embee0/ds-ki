@@ -10,6 +10,8 @@
 # - develop: Startet einen lokalen Server und beobachtet Änderungen, d.h.
 #   das Buch wird, sobald Änderungen gespeichert werden, neu gebaut und im
 #   Browser aktualisiert.
+# - publish: Veröffentlicht das Buch online (muss angepasst werden, wenn
+#   ein anderer Server verwendet wird)
 
 # Standardziel: Hilfetext anzeigen
 all: help
@@ -45,5 +47,5 @@ help:
 	@echo "  clean       um alle temporären Dateien und Verzeichnisse zu löschen"
 	@echo "  build       um das Buch in HTML zu bauen"
 	@echo "  develop     um während des Schreibens einen lokalen Server zu starten und Änderungen sofort zu sehen"
-	@echo "  publish     um das Buch online zu veröffentlichen. (ACHTUNG: löuft zurzeit nur direkt über vscode!!!)"
+	@echo "  publish     um das Buch online zu veröffentlichen."
 	@echo "  help        um diese Nachricht anzuzeigen"

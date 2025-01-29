@@ -4,6 +4,14 @@
 
 Michael Brenner, Schuljahr 2024/25
 
+```{figure} figures/mindmap-abitur-it-mermaid.svg
+---
+name: fig:mindmap_abistoff_it
+---
+Ganz schön viel Stoff in Klasse 12 und 13...
+
+```
+
 ## Worum geht es in diesem Buch?
 
 ```{margin}
